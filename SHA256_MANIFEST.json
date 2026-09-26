@@ -151,29 +151,29 @@
       "sha256": "e326260a932213eb3b7da3d657b256cd8e20f7efd52fb61f76730a21fb9b38b8"
     },
     {
-      "bytes": 197689,
+      "bytes": 196894,
       "file": "config/ontology/official_icd_code_audit_2018_2022.csv",
-      "sha256": "9707f464593057f0d29416e770f84379be3858c5b649c743bc25dbff898c5353"
+      "sha256": "4057d31834e7aa43651e9c840973612c2d368766da3bcc938ea16954d2874a05"
     },
     {
-      "bytes": 1938,
+      "bytes": 1927,
       "file": "config/ontology/official_source_manifest.csv",
-      "sha256": "76e56ad658d183a1a7d919038e3e06f2050a5081272037b6656658295d15f902"
+      "sha256": "ae2cf73266b1c46d7a239ce0c6735dc5e9fe3026e5cc21f6ee111effb4db3f4e"
     },
     {
-      "bytes": 1443,
+      "bytes": 1401,
       "file": "config/ontology/ontology_summary.json",
-      "sha256": "1b447dac2b365c1078376b139ec4dfbe56efe866510b6372d6c0acdca93ff81e"
+      "sha256": "2add5f90e0dae3d1f0e4c8747a2a2bd210aeb2183557cf082324939a8fa5e55c"
     },
     {
-      "bytes": 1356,
+      "bytes": 1349,
       "file": "config/ontology/ontology_v1.0.csv",
-      "sha256": "8aad7e39bba2d802ee20213455a743fa78ac217a8ac67358f128e4d8b2b49e80"
+      "sha256": "cca9a142f441923b71178ecdaa8f4bc33bd3cd3f53c03e19d38863a78e5e4f13"
     },
     {
-      "bytes": 2684,
+      "bytes": 2675,
       "file": "config/ontology/ontology_v2.0.csv",
-      "sha256": "bd69a70df9a12d2266e797a0d310a3194f19b533cdddc3381447380e4466d30c"
+      "sha256": "cce392f4b0ea0151ca77c32f8893805606f8b57c2713c8eccf8daac35347c453"
     },
     {
       "bytes": 479,
@@ -181,9 +181,9 @@
       "sha256": "edb9ede68fba8d36130b60c8c4e0613fa48613901aa535f43165144b103ffcad"
     },
     {
-      "bytes": 669,
+      "bytes": 663,
       "file": "config/ontology/variable_dictionary_v1.0.csv",
-      "sha256": "2ec42f78e9c40da982afdf57cbf6106fa6628cfd2b42482987656d38484cad36"
+      "sha256": "d289f98f7537d3d4a53befae72eba984f8a0531714b72a98c29d7ca05088fee3"
     },
     {
       "bytes": 840,
@@ -206,9 +206,9 @@
       "sha256": "f2f5df7bcc9212b60e1a077eed0f95bc30cdd47fdac7bb4a5deede62ca895207"
     },
     {
-      "bytes": 1207,
+      "bytes": 1166,
       "file": "data/processed/amendment005/PUBLIC_SHA256_MANIFEST.json",
-      "sha256": "3893bdddbf1cb898a21273d15bd4117fc41326286c54469480407ded8d35c4e1"
+      "sha256": "e57089f348a6db4d0e7c13442a1f8188f5a7fed10abce910ffa2c75b093d80d1"
     },
     {
       "bytes": 1221,
@@ -236,9 +236,9 @@
       "sha256": "f2f5df7bcc9212b60e1a077eed0f95bc30cdd47fdac7bb4a5deede62ca895207"
     },
     {
-      "bytes": 889,
+      "bytes": 858,
       "file": "data/processed/amendment006/PUBLIC_SHA256_MANIFEST.json",
-      "sha256": "57f4394728906578848d5ab28ca568bf397e7d04fe0ca471009023def8f4aa4d"
+      "sha256": "0cdaa717ac251b51c7f8a8e342fd59af7b68875b9873813749268fabae1714f3"
     },
     {
       "bytes": 1053,
@@ -256,9 +256,9 @@
       "sha256": "a4e3c0ab8b83858b318614e73823190e29b418b0b64dce51a28fec39c0108299"
     },
     {
-      "bytes": 466,
+      "bytes": 464,
       "file": "data/processed/amendment006/YEAR_SENSITIVITY_METHOD.md",
-      "sha256": "a45f0f0d2d95eff2634f557aa5dcc97270ccf367cd7ae749e65ceeadac83e68c"
+      "sha256": "ded9d579c5f93c6503178af31872555b51b0a00671e3215078ffe19f630033b2"
     },
     {
       "bytes": 4919,
@@ -271,9 +271,9 @@
       "sha256": "202916c168006f50b1d38c6e6fac91ab79c7e5cb0d65f451f40e8202c22b05e9"
     },
     {
-      "bytes": 1320,
+      "bytes": 1310,
       "file": "data/processed/claims_ontology.csv",
-      "sha256": "8ad4325837fe664488f48868cde47f5b1b5f4b1fd1d5850693fc204f8870d8d3"
+      "sha256": "65729f9ac0885c93314e56e265dcdbe74bb68d720e2da74577811dc02239a2e9"
     },
     {
       "bytes": 573,
@@ -441,9 +441,9 @@
       "sha256": "d231181036439c341837cee62f731ab4c2d0773c29d786839c0abaa72cc58466"
     },
     {
-      "bytes": 466,
+      "bytes": 464,
       "file": "protocol/SAP_amendment006.md",
-      "sha256": "a45f0f0d2d95eff2634f557aa5dcc97270ccf367cd7ae749e65ceeadac83e68c"
+      "sha256": "ded9d579c5f93c6503178af31872555b51b0a00671e3215078ffe19f630033b2"
     },
     {
       "bytes": 10624,
