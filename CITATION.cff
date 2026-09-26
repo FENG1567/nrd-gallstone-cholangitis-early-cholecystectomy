@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Reproducibility package for staged biliary intervention in gallstone cholangitis"
+message: "Please cite the associated article and the exact repository release used."
+type: software
+repository-code: "https://github.com/FENG1567/nrd-gallstone-cholangitis-early-cholecystectomy"
+url: "https://github.com/FENG1567/nrd-gallstone-cholangitis-early-cholecystectomy/releases/tag/v1.0.0"
+license: MIT
+authors:
+  - family-names: Feng
+    given-names: Shuo
+  - family-names: Shi
+    given-names: Chao
+  - family-names: Liu
+    given-names: Tianming
+  - family-names: Ding
+    given-names: Haoran
+  - family-names: Hang
+    given-names: Fenghe
+  - family-names: Huang
+    given-names: Zhenghao
+  - family-names: Meng
+    given-names: Xianzhi
+version: 1.0.0
+date-released: 2026-09-27

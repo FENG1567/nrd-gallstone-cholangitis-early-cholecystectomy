@@ -1,0 +1,34 @@
+# Licensed/raw and patient-level data
+*.zip
+*.parquet
+*.sas7bdat
+*.sav
+*.dta
+*.rds
+raw/
+private/
+private_root/
+authorized_inputs/
+authorization_receipts/
+.authorization_receipts/
+*_allowlist.json
+*.receipt
+
+# Credentials and local environments
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+*.secret
+*.token
+
+# Generated/private outputs
+run_outputs/
+results_private/
+*.log
+*.tmp
+__pycache__/
+.pytest_cache/
+figures/regenerated/

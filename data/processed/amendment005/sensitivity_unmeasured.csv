@@ -1,0 +1,9 @@
+analysis,quantity,rr,e_value,source,bias_factor,bias_adjusted_rr
+E-value,point estimate,0.5019595078173996,3.3981223846969995,formal500 public primary_results.csv; not re-estimated here,,
+E-value,95% CI upper bound,0.6721755360675867,2.339507298327583,formal500 public primary_results.csv; not re-estimated here,,
+symmetric confounding curve,RR_UA=RR_UY=1.25,0.5019595078173996,,deterministic sensitivity formula; not a causal estimate,1.0416666666666667,0.5228744873097914
+symmetric confounding curve,RR_UA=RR_UY=1.50,0.5019595078173996,,deterministic sensitivity formula; not a causal estimate,1.125,0.5647044462945746
+symmetric confounding curve,RR_UA=RR_UY=1.75,0.5019595078173996,,deterministic sensitivity formula; not a causal estimate,1.225,0.6149003970763146
+symmetric confounding curve,RR_UA=RR_UY=2.00,0.5019595078173996,,deterministic sensitivity formula; not a causal estimate,1.3333333333333333,0.6692793437565328
+symmetric confounding curve,RR_UA=RR_UY=2.50,0.5019595078173996,,deterministic sensitivity formula; not a causal estimate,1.5625,0.7843117309646869
+symmetric confounding curve,RR_UA=RR_UY=3.00,0.5019595078173996,,deterministic sensitivity formula; not a causal estimate,1.8,0.9035271140713194

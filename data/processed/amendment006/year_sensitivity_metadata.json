@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "analysis": "Amendment006",
+  "bootstrap_requested": 500,
+  "estimand_language": "adjusted longitudinal association in the common overlap target population",
+  "analyses": [
+    "calendar_year_2018",
+    "calendar_year_2019",
+    "calendar_year_2020",
+    "leave_out_2020"
+  ],
+  "aggregate_only": true
+}

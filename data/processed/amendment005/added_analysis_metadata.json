@@ -1,0 +1,26 @@
+{
+  "analysis": "Amendment005",
+  "bootstrap_requested": 500,
+  "estimand_language": "adjusted longitudinal association in the common overlap target population",
+  "formal500_primary_rr": 0.5019595078173996,
+  "formal500_primary_rr_upper_ci": 0.6721755360675867,
+  "primary_years": [
+    2018,
+    2019,
+    2020
+  ],
+  "public_outputs_aggregate_only": true,
+  "status": "PASS",
+  "subgroup_families": [
+    "ERCP procedure day",
+    "age",
+    "comorbidity",
+    "hospital teaching status",
+    "sex"
+  ],
+  "timing_windows": [
+    1,
+    2,
+    3
+  ]
+}

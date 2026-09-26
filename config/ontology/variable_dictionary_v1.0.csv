@@ -1,0 +1,6 @@
+variable,table,years,type,temporal_class,missing,stage,leakage_reason
+AGE,NRD core,2018-2022,numeric,PRE_TREATMENT,exclude invalid; report,all,
+DX/PR exact phenotype,NRD core/DX_PR,2018-2022,categorical,PRE_TREATMENT,structural,cohort,procedure timing unresolved
+APRDRG/severity after treatment,NRD severity,2018-2022,categorical,EXCLUDED_LEAKAGE,not used,supportive only,may encode post-admission course
+LOS/disposition/index death,NRD core,2018-2022,outcome,POST_TREATMENT,not used primary adjustment,outcome,post-treatment
+NRD_VisitLink/DaysToEvent,NRD core,2018-2022,linkage/time,TIME_VARYING,exclude missing linkage for readmission,followup,within-year only

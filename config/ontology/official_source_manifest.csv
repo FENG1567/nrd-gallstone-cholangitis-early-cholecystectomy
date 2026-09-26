@@ -1,0 +1,11 @@
+﻿year,system,filename,bytes,sha256,official_url
+2018,ICD-10-CM,cm_2018_v2.txt,14076464,fbd6207618a7ca2f9eb1a001c522584e77433ccb3d2bda240790f052b1593b66,https://www.cms.gov/files/document/icd10-cm-order-2018-txt.txt
+2018,ICD-10-PCS,pcs_2018.zip,1640538,210935ee3ebaa396a1ebfee22b0b010dbb38fda7cdea4754040ca49a040cd3a0,https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2018-ICD-10-PCS-Order-File.zip
+2019,ICD-10-CM,cm_2019.zip,2202400,73a4b41698bb9ae5e3e557edab4c76cf194faee3cf2dc594df25a9a343a70fa1,https://www.cms.gov/medicare/coding/icd10/downloads/2019-icd-10-cm-code-descriptions.zip
+2019,ICD-10-PCS,pcs_2019.zip,1756787,9d51328f1b0176edeb2a90701c2e5d5fc984637b4480d83fc0a4cc8a569d5845,https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2019-ICD-10-PCS-Order-File.zip
+2020,ICD-10-CM,cm_2020.txt,14167274,80991e20ffb60086ba0340572dd0e3e2248c6647c31a06fadcb30b419dac02bc,https://www.cms.gov/files/document/2020-icd-10-cm-order-txt.txt
+2020,ICD-10-PCS,pcs_2020.zip,1262245,55cc9555df3f95c1a4928c6389dda1646e477c1d9f1b33e4b740960c169db9de,https://www.cms.gov/medicare/coding/icd10/downloads/2020-icd-10-pcs-order.zip
+2021,ICD-10-CM,cm_2021.zip,2370926,479be4d5773fb2e8357c5edb8a56bbd48da4d2bca443a7c42527ad102e3b388c,https://www.cms.gov/files/zip/2021-code-descriptions-tabular-order-updated-12162020.zip
+2021,ICD-10-PCS,pcs_2021.zip,1309509,59c5ba3c6601a6f759b0110bfd9b4fdee8eb556462fcf661a823518ff90f2a93,https://www.cms.gov/files/zip/2021-icd-10-pcs-order-file-long-and-abbreviated-titles-updated-december-1-2020.zip
+2022,ICD-10-CM,cm_2022.zip,2184380,423206a194dd6db8384c3b39699ad3c1efa19718677fa81690557732a31bf560,https://www.cms.gov/files/zip/2022-code-descriptions-tabular-order-updated-02012022.zip
+2022,ICD-10-PCS,pcs_2022.zip,1296495,0a98d9bd017a04c9ec09d2e6f85924d6a5c54b091bcf7fa4a8ed8793a81244ca,https://www.cms.gov/files/zip/2022-icd-10-pcs-order-file-long-and-abbreviated-titles-updated-december-1-2021.zip

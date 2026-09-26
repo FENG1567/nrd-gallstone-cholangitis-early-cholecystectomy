@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "bytes": 55,
+      "file": "DISCLOSURE_GATE.json",
+      "sha256": "f7b89d970bcff0f97b7d8a2fc5a2ce3cf6f166c0ed2404bb87c305f54e348d38"
+    },
+    {
+      "bytes": 4919,
+      "file": "analysis_metadata.json",
+      "sha256": "7baff1611ab2112aa2020ea4fb84f04048227624dbed703e31adf2444a9852c8"
+    },
+    {
+      "bytes": 536459,
+      "file": "bootstrap_replicate_qc_recorded.csv",
+      "sha256": "202916c168006f50b1d38c6e6fac91ab79c7e5cb0d65f451f40e8202c22b05e9"
+    },
+    {
+      "bytes": 573,
+      "file": "clone_ccw_design.json",
+      "sha256": "743e24ed62e39bd3a3e9069e3f198b9268648dc320e3f67e789be106331bf006"
+    },
+    {
+      "bytes": 121496,
+      "file": "primary_results.csv",
+      "sha256": "1ac442dd76f8999a36fe84df00624336e4fdff3caa1288ac94cf505b116d79bd"
+    }
+  ],
+  "status": "PASS"
+}

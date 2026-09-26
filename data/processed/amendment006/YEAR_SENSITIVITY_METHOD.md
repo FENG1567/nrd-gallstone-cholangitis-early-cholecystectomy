@@ -1,0 +1,2 @@
+# Amendment 006 year sensitivity
+The calendar-year and leave-one-year-out analyses use the frozen v4.7 cohort, common-overlap clone-censor-weighting estimator, and 500 YEAR x NRD_STRATUM Rao-Wu rescaled hospital-PSU bootstrap replicates. They are supplemental descriptive heterogeneity/sensitivity analyses, not causal interaction tests. Fixed seed offsets were used for 2018, 2019, 2020, and leave-one-year-out 2020 analyses. Only aggregate outputs are released.

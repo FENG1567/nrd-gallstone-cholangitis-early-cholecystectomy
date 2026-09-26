@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "audits": [
+    {
+      "analysis": "calendar_year_2018",
+      "status": "PASS",
+      "input_n": 1814,
+      "frame_hospitals": 2430,
+      "frame_strata": 89
+    },
+    {
+      "analysis": "calendar_year_2019",
+      "status": "PASS",
+      "input_n": 1783,
+      "frame_hospitals": 2507,
+      "frame_strata": 93
+    },
+    {
+      "analysis": "calendar_year_2020",
+      "status": "PASS",
+      "input_n": 1752,
+      "frame_hospitals": 2539,
+      "frame_strata": 100
+    },
+    {
+      "analysis": "leave_out_2020",
+      "status": "PASS",
+      "input_n": 3597,
+      "frame_hospitals": 4937,
+      "frame_strata": 182
+    }
+  ],
+  "bootstrap_successful": 500
+}

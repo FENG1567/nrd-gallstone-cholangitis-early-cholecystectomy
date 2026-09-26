@@ -1,0 +1,6 @@
+numpy>=1.26,<3
+pandas>=2.1,<3
+scikit-learn>=1.3,<2
+pyarrow>=14,<20
+pyzipper>=0.3.6,<1
+pytest>=7,<9

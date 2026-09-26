@@ -1,0 +1,24 @@
+name: public-reproducibility-checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  synthetic-static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install public dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile Python source
+        run: python -m compileall -q code scripts tests
+      - name: Run synthetic/static tests
+        run: python -m pytest -q
+      - name: Validate aggregate outputs
+        run: python code/validation/validate_aggregate_outputs.py --repo .
+      - name: Verify package safety and SHA256 manifest
+        run: python code/validation/verify_public_package.py --repo .

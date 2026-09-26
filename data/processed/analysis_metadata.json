@@ -1,0 +1,123 @@
+{
+  "administrative_followup_windows": {
+    "30_day_conservative": {
+      "horizon_days": 30,
+      "month_max": 10,
+      "month_min": 1,
+      "n_input": 5797,
+      "n_invalid_or_missing_dmonth": 0,
+      "n_retained": 4886,
+      "n_valid_dmonth_outside_window": 911,
+      "role": "administrative observability restriction only; DMONTH excluded from propensity/IPCW/target/SMD/outcome models",
+      "sensitivity": true
+    },
+    "30_day_primary": {
+      "horizon_days": 30,
+      "month_max": 11,
+      "month_min": 1,
+      "n_input": 5797,
+      "n_invalid_or_missing_dmonth": 0,
+      "n_retained": 5349,
+      "n_valid_dmonth_outside_window": 448,
+      "role": "administrative observability restriction only; DMONTH excluded from propensity/IPCW/target/SMD/outcome models",
+      "sensitivity": false
+    },
+    "90_day_conservative": {
+      "horizon_days": 90,
+      "month_max": 8,
+      "month_min": 1,
+      "n_input": 5797,
+      "n_invalid_or_missing_dmonth": 0,
+      "n_retained": 3844,
+      "n_valid_dmonth_outside_window": 1953,
+      "role": "administrative observability restriction only; DMONTH excluded from propensity/IPCW/target/SMD/outcome models",
+      "sensitivity": true
+    },
+    "90_day_primary": {
+      "horizon_days": 90,
+      "month_max": 9,
+      "month_min": 1,
+      "n_input": 5797,
+      "n_invalid_or_missing_dmonth": 0,
+      "n_retained": 4365,
+      "n_valid_dmonth_outside_window": 1432,
+      "role": "administrative observability restriction only; DMONTH excluded from propensity/IPCW/target/SMD/outcome models",
+      "sensitivity": false
+    }
+  },
+  "bootstrap_requested": 500,
+  "claim_limit": "adjusted longitudinal association only; possible post-time-zero discharge-month selection is a central limitation",
+  "dmont_role": "administrative restriction only; excluded from every adjustment model",
+  "hash_binding": {
+    "allowlist_status": "APPROVED",
+    "linked_inputs": [
+      {
+        "relative_path": "2018/linked_discharges_2018.parquet",
+        "sha256": "f554a08d5a90c65b4f2fe53c5821e991a5c9bcb66c90b6b3c168b6f3bbcdc989"
+      },
+      {
+        "relative_path": "2019/linked_discharges_2019.parquet",
+        "sha256": "0cb3b64033dc3e4b306535802126150c4a968727b65bf68a1a25c0ff8a7f2ae3"
+      },
+      {
+        "relative_path": "2020/linked_discharges_2020.parquet",
+        "sha256": "79cd236def97390a68a187d94cf1d6897e07dd8fb2df5d8f092899294e2901cd"
+      }
+    ],
+    "source_hashes": {
+      "authorization_tests": "6b163c0c973a1f190eb516f83e02b7abb955deadb74e325c08a4ca74bb63e011",
+      "base_config": "6a067e6aab43be0e7cc188f9ea99771318be636efd5856695bf7536a6024a434",
+      "execution_barrier_tests": "2ea5d541ac2fb41f914d599fdbdcb2dec24b64fda8b0efed05f912380ce605de",
+      "formal_attachment_tests": "1ca03d5f511098ade8622258b66c5c1a9937d78ed8377c828280bd47009ba2ef",
+      "regression_tests": "827f33a30fc3c75c14f9a15ddd95b6d42578dad4c8bd2a41fce2cfaf1dc98899",
+      "runner": "51525d229296434783009116e073181abe0733b154ee42fdb5767ca2022ac65a",
+      "sap": "a2718f0fae15ab5fa02a536b2d0e9d23e951ffa44ea60cec15bb8f8c6edfe6e0",
+      "tests": "695020a09df4d1f8159585595529f0754dc2e64534a2544e97cb3c6b176b0bf4"
+    },
+    "structural_inputs": [
+      {
+        "relative_path": "2018/index_candidates_2018.parquet",
+        "sha256": "cef9dabab1c04853c1284a5ef21f78b1167ba6f97ec54dce31853e1a933c047f"
+      },
+      {
+        "relative_path": "2018/hospital_linked_2018.parquet",
+        "sha256": "71acc8d8fe2132fe153ece178f5cc02162d5ffcc1a9774175a6de83f89c93728"
+      },
+      {
+        "relative_path": "2019/index_candidates_2019.parquet",
+        "sha256": "740eac145879b33caf3bb761bae451a772d4ffe1188832ed9925c9788703c72b"
+      },
+      {
+        "relative_path": "2019/hospital_linked_2019.parquet",
+        "sha256": "2759dacd32cf3f541a3762405a7a9f68b6f6795c482a591363ef68ab611822a3"
+      },
+      {
+        "relative_path": "2020/index_candidates_2020.parquet",
+        "sha256": "c513cf6733883dfe2232ec9044f84fda42d4c445d086675f19d164ce5d27309a"
+      },
+      {
+        "relative_path": "2020/hospital_linked_2020.parquet",
+        "sha256": "1b39158d7300c5bec535cfaea85d01d3df2bdc80af9a6cb62f18cb5e7e3ec008"
+      },
+      {
+        "relative_path": "2018/official_nrd_hospital_frame_2018.csv",
+        "sha256": "95a76d9d88be9cf64a347afa462226a9e9f4095fb33f1de499f897a85ffea23d"
+      },
+      {
+        "relative_path": "2019/official_nrd_hospital_frame_2019.csv",
+        "sha256": "e7f939153dba777decbb7ae97bdc54ecefe6fb53c821301828299d3b76045300"
+      },
+      {
+        "relative_path": "2020/official_nrd_hospital_frame_2020.csv",
+        "sha256": "a17ee890ba658ce378ae79a0eba3ab7a35742d734a985d39a139c0201633595c"
+      }
+    ]
+  },
+  "primary_years": [
+    2018,
+    2019,
+    2020
+  ],
+  "replicate_qc_role": "SMD, ESS and q99 distributions are recorded, not replicate veto criteria",
+  "status": "PASS"
+}

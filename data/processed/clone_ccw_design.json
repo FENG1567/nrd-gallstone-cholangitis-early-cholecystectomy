@@ -1,0 +1,10 @@
+{
+  "deadline_and_live_discharge": "structural censoring applies before the next risk set",
+  "event_tie": "event-first only for actual complete-operation tie in not-completed clone",
+  "strategies": {
+    "early": "complete cholecystectomy on procedure-days 1-3",
+    "not_completed": "no complete cholecystectomy through end of procedure-day 3, usual care thereafter"
+  },
+  "time_zero": "recorded therapeutic ERCP procedure day",
+  "variance": "YEAR \u00d7 NRD_STRATUM Rao-Wu rescaled hospital bootstrap; all nuisance fits and truncation recomputed in each replicate"
+}

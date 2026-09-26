@@ -1,0 +1,9 @@
+{
+  "version": "v3-candidate-static-round2",
+  "primary_years": [2018, 2019, 2020],
+  "base_covariates": ["AGE", "FEMALE", "PAY1", "ZIPINC_QRTL", "PL_NCHS", "HCUP_ED", "AWEEKEND", "ERCP_DAY_MIN", "HOSP_BEDSIZE", "H_CONTRL", "HOSP_URCAT4", "HOSP_UR_TEACH", "YEAR", "CHRONIC_DM", "CHRONIC_HTN", "CHRONIC_HF", "CHRONIC_PULM", "CHRONIC_CKD", "CHRONIC_LIVER", "CHRONIC_OBESITY", "CHRONIC_DEMENTIA", "CHRONIC_ALCOHOL", "CHRONIC_COAGULOPATHY", "CHRONIC_PVD"],
+  "common_support": [0.05, 0.95],
+  "administrative_windows": {"primary": {"30": [1, 11], "90": [1, 9]}, "conservative": {"30": [1, 10], "90": [1, 8]}},
+  "prohibited_adjustment_variables": ["DMONTH", "NRD_STRATUM"],
+  "hash_rule": "The approved allowlist must exactly bind this file, runner, SAP, tests, structural parquet inputs and linked-outcome parquet inputs before deployment."
+}

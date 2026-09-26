@@ -1,0 +1,42 @@
+{
+  "broad_logic": "main_logic OR (other_cholangitis AND gallstone_evidence_broad)",
+  "locked_2022_patient_data_touched": false,
+  "main_logic": "acute_cholangitis_strict OR cholangitis_unspecified_with_duct_stone",
+  "primary_exposure": "cholecystectomy_complete after therapeutic_biliary_ercp_core during index admission",
+  "stable_code_counts": {
+    "acute_cholangitis_strict": 4,
+    "biliary_device_removal": 10,
+    "cholangitis_unspecified_with_duct_stone": 2,
+    "cholecystectomy_complete": 2,
+    "cholecystectomy_partial": 2,
+    "diagnostic_ercp": 1,
+    "gallstone_evidence_broad": 38,
+    "other_cholangitis": 0,
+    "pancreatic_endoscopic_intervention": 19,
+    "primary_sclerosing_cholangitis": 0,
+    "therapeutic_biliary_ercp_core": 30,
+    "therapeutic_biliary_ercp_extended": 49
+  },
+  "strict_logic": "acute_cholangitis_strict",
+  "union_code_counts": {
+    "acute_cholangitis_strict": 4,
+    "biliary_device_removal": 10,
+    "cholangitis_unspecified_with_duct_stone": 2,
+    "cholecystectomy_complete": 2,
+    "cholecystectomy_partial": 2,
+    "diagnostic_ercp": 1,
+    "gallstone_evidence_broad": 38,
+    "other_cholangitis": 2,
+    "pancreatic_endoscopic_intervention": 19,
+    "primary_sclerosing_cholangitis": 1,
+    "therapeutic_biliary_ercp_core": 30,
+    "therapeutic_biliary_ercp_extended": 49
+  },
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ]
+}

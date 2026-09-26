@@ -1,0 +1,7 @@
+concept,system,exact_codes,version,position,role,rationale,official_description,frequency_evidence
+acute_cholangitis,ICD-10-CM,K83.01;K83.09,FY2018-2021,any diagnosis; principal sensitivity,include,acute cholangitis exact-code phenotype,CMS official tabular descriptions; no prefix-only rule,pending 2018-2021 aggregate
+choledocholithiasis,ICD-10-CM,K80.30;K80.31;K80.40;K80.41;K80.50;K80.51,FY2018-2021,any diagnosis,include,common-bile-duct calculus phenotype,CMS official tabular descriptions; exact codes,pending 2018-2021 aggregate
+malignant_obstruction,ICD-10-CM,C22-C26 exact approved list required,FY2018-2021,any diagnosis,exclude,non-gallstone causal pathway,CMS tabular list to be versioned,not primary
+prior_cholecystectomy,ICD-10-CM,Z90.49,FY2018-2021,any diagnosis,exclude,no gallbladder at risk,CMS official description,not primary
+therapeutic_ercp,ICD-10-PCS,0FC98ZZ;0FC88ZZ;0F798ZZ;0F798DZ;0F7D8ZZ;0F7D8DZ,FY2018-2021,any procedure,treatment,exact therapeutic duct intervention set,"section 0, body system F, root operation/approach individually checked; no prefix-only rule",pending 2018-2021 aggregate
+cholecystectomy,ICD-10-PCS,0FB40ZZ;0FB44ZZ,FY2018-2021,any procedure,treatment,exact gallbladder resection set,"section 0, body system F, root operation B, body part gallbladder; approach individual",pending 2018-2021 aggregate

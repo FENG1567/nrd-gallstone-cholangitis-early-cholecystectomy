@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "bytes": 55,
+      "file": "DISCLOSURE_GATE.json",
+      "sha256": "f2f5df7bcc9212b60e1a077eed0f95bc30cdd47fdac7bb4a5deede62ca895207"
+    },
+    {
+      "bytes": 1053,
+      "file": "year_sensitivity.csv",
+      "sha256": "3f182eaecce5d8b13204396a977ee2c237f485c92608e5c8020a9ba665973ae7"
+    },
+    {
+      "bytes": 694,
+      "file": "year_sensitivity_audit.json",
+      "sha256": "66e853e3d42c3d25bde805725b20af7935ee82b10d5ead798dcd81a94b8f5b77"
+    },
+    {
+      "bytes": 329,
+      "file": "year_sensitivity_metadata.json",
+      "sha256": "a4e3c0ab8b83858b318614e73823190e29b418b0b64dce51a28fec39c0108299"
+    },
+    {
+      "bytes": 466,
+      "file": "YEAR_SENSITIVITY_METHOD.md",
+      "sha256": "a45f0f0d2d95eff2634f557aa5dcc97270ccf367cd7ae749e65ceeadac83e68c"
+    }
+  ],
+  "self_excluded": true,
+  "status": "PASS"
+}

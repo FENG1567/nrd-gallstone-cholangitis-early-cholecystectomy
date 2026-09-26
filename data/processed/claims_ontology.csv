@@ -1,0 +1,10 @@
+construct,source_field_or_family,timing_or_rule,role,interpretation_boundary
+acute_cholangitis_phenotype,ICD-10-CM K80.32/K80.33/K80.36/K80.37,admission diagnosis,eligibility,administrative phenotype proxy
+therapeutic_ERCP,prespecified therapeutic ERCP procedure family,recorded procedure day,time zero,procedure-day resolution only
+complete_cholecystectomy,prespecified complete cholecystectomy procedure family,procedure-days 1-3,strategy definition,partial procedures excluded
+index_death,DIED plus LOS and ERCP_DAY_MIN,death_time=LOS-ERCP_DAY_MIN after time zero,outcome,index death retained; not an eligibility exclusion
+later_inpatient_death,linked discharge DIED,linked record start minus ERCP time zero,outcome,within-state inpatient capture only
+non_elective_readmission,linked discharge ELECTIVE=0 plus diagnosis ontology,later admission begins after index discharge,outcome,same-state inpatient capture only
+biliary_readmission,linked non-elective readmission with biliary diagnosis family,later admission,outcome,diagnosis proxy
+DMONTH,linked discharge month,post-time-zero observability window,administrative restriction,excluded from all adjustment models
+hospital_PSU,annual hospital identifier within YEAR x NRD_STRATUM,official annual frame,variance resampling,PSU not patient-level bootstrap

@@ -1,0 +1,6 @@
+family,contrast,rd_difference_point,rd_difference_ci_low,rd_difference_ci_high,bootstrap_successful,interpretation
+ERCP procedure day,day 0 minus day 1+,-0.009099247170174338,-0.04797493896601314,0.027016989280246706,500,descriptive effect-modification contrast; no causal interaction claim
+age,<65 minus 65+,-0.005789518002620206,-0.04487648787660058,0.040728610192618454,500,descriptive effect-modification contrast; no causal interaction claim
+comorbidity,0-1 chronic-code proxies minus 2+ chronic-code proxies,0.0488752871899572,0.009463995720421668,0.09225251788120108,500,descriptive effect-modification contrast; no causal interaction claim
+hospital teaching status,non-teaching minus teaching,0.0029955446290951073,-0.04999142288851,0.06190287046977299,500,descriptive effect-modification contrast; no causal interaction claim
+sex,female minus male,-0.0068979968581502115,-0.04845578102016991,0.034431962641069715,500,descriptive effect-modification contrast; no causal interaction claim

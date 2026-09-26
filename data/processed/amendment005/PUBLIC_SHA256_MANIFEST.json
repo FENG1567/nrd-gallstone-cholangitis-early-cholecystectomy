@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "bytes": 555,
+      "file": "added_analysis_metadata.json",
+      "sha256": "3003a8aa51ec2d9b7017fbc61f789d09038e2b19efcb63030c429d6c82a5107e"
+    },
+    {
+      "bytes": 1127,
+      "file": "ADDED_ANALYSIS_SAP.md",
+      "sha256": "d231181036439c341837cee62f731ab4c2d0773c29d786839c0abaa72cc58466"
+    },
+    {
+      "bytes": 55,
+      "file": "DISCLOSURE_GATE.json",
+      "sha256": "f2f5df7bcc9212b60e1a077eed0f95bc30cdd47fdac7bb4a5deede62ca895207"
+    },
+    {
+      "bytes": 1221,
+      "file": "sensitivity_unmeasured.csv",
+      "sha256": "9a0de0c2470376483bce518ff91962cedafe86d0b30f51e5f8cec0a4616f6d41"
+    },
+    {
+      "bytes": 996,
+      "file": "subgroup_heterogeneity.csv",
+      "sha256": "efd83aa5b3c5ce2f9f400d373f125cde464f2773599f845b55fae88c15c3cb40"
+    },
+    {
+      "bytes": 2987,
+      "file": "subgroup_results.csv",
+      "sha256": "c3607285987e7ee2c6ba802264229a114546c8e6b49bdab6cc4d06f338ae4bf0"
+    },
+    {
+      "bytes": 1111,
+      "file": "timing_gradient.csv",
+      "sha256": "6ae5ccbaef03d382ec68aabd7eb29699d679fad3f2f15700f97b8deadc51f87a"
+    }
+  ],
+  "self_excluded": true,
+  "status": "PASS"
+}
