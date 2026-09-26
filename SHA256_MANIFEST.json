@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 185,
+      "bytes": 203,
       "file": ".gitattributes",
-      "sha256": "b28fb41d0b8b13caed0ecd7380ee39bcd661ec9ee4b0699bc0e977f02e8890c9"
+      "sha256": "3d79476f87d6ea2e81cc3d3247c43765a47aec09db79ef4f20cc457f76de52cd"
     },
     {
       "bytes": 754,
@@ -356,9 +356,9 @@
       "sha256": "1ad3dcf1b8978653ca2700b1aaedacf167f6ef93e51e8676739d3511c72834b1"
     },
     {
-      "bytes": 16880,
+      "bytes": 16671,
       "file": "figures/Figure2_primary_effects.svg",
-      "sha256": "38c0dde2272a0e9d7546dc78a31c0569850b6d0fa6d0ed1fefd73b54cf2dde4f"
+      "sha256": "9a190ff494340c72279eb32cc607ad4ec11b762d2b8e80337bfb5089af8169ce"
     },
     {
       "bytes": 579678,
@@ -376,9 +376,9 @@
       "sha256": "d157fc761d22f2e7236f38996e9eed90cc7b0049ccfa8b93290c0a24e4419f6e"
     },
     {
-      "bytes": 11855,
+      "bytes": 11702,
       "file": "figures/Figure3_dmonth_sensitivity.svg",
-      "sha256": "6bd3bb40d7150086ec17afd96a88919fddef0e7d7fb0bd021d93de402019a81a"
+      "sha256": "5d38b552f909d59a894125ec6e901e3d77094659dadfcda9d11ef92f584c7e5d"
     },
     {
       "bytes": 430178,
@@ -406,9 +406,9 @@
       "sha256": "d47ab89f1fee9abd5b1a1819d0be3891746af18ae98a4a4240452497e3ad9f23"
     },
     {
-      "bytes": 22149,
+      "bytes": 21904,
       "file": "figures/Figure5_timing_subgroup.svg",
-      "sha256": "28ee53bcbb1eff38944b1d4fd7d1df907e40e928b48c11d3b4682bdcebc59690"
+      "sha256": "c7f17362eaae3f0bdced8aca37d8bd474d3ac8eb4465d38e0543bb1ebcb70e89"
     },
     {
       "bytes": 833568,
